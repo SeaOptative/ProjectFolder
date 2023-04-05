@@ -22,3 +22,9 @@ class TestSum(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    
+    """
+    The test result means that the first method which test for the sum of a list
+    of integer is correct and the expected sum is correct but the second method 
+    which test for the sum of the list of fractions is wrong as the expected sum is not equal to 1.
+    """
